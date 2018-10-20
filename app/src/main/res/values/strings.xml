@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BloggingApp</string>
+    <string name="email_hint">Enter Email</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="login_btn_txt">Login To Account</string>
+    <string name="login_reg_btn_txt">Need A New Account ?</string>
 </resources>
