@@ -48,13 +48,10 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //finish();
-                Intent mainIntent = new Intent(RegisterActivity.this, LoginActivity.class);
-                startActivity(mainIntent);
+                finish();
 
             }
         });
-
 
         //on clicking register button
         reg_btn.setOnClickListener(new View.OnClickListener() {
@@ -79,7 +76,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                                     Toast.makeText(RegisterActivity.this, "Account Created.", Toast.LENGTH_LONG).show();
 
-                                    Intent setupIntent = new Intent(RegisterActivity.this, MainActivity.class);
+                                    Intent setupIntent = new Intent(RegisterActivity.this, SetupActivity.class);
                                     startActivity(setupIntent);
                                     finish();
 
