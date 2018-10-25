@@ -93,6 +93,7 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
+    //to check if user is currently loggeg in
     @Override
     protected void onStart() {
         super.onStart();
