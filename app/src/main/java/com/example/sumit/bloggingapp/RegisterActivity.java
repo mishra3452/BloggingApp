@@ -76,7 +76,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                                     Toast.makeText(RegisterActivity.this, "Account Created.", Toast.LENGTH_LONG).show();
 
-                                    Intent setupIntent = new Intent(RegisterActivity.this, SetupActivity.class);
+                                    Intent setupIntent = new Intent(RegisterActivity.this, MainActivity.class);
                                     startActivity(setupIntent);
                                     finish();
 
